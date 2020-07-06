@@ -1,0 +1,33 @@
+p(style="color:#050505; font-family:'Roboto', Arial,sans-serif; font-size:28px; line-height:34px; text-align:left; padding-bottom:20px;") Hi User,
+table(width="100%" border="0" cellspacing="0" cellpadding="0")
+  tr
+    td(style="padding-bottom: 10px;")
+      table(width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff")
+        tr
+          td(style="padding: 30px 15px !important; padding: 30px;")
+            table(width="100%" border="0" cellspacing="0" cellpadding="0")
+              tr
+                th(width="240" style="padding-bottom: 10px !important; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;")
+                  table(width="100%" border="0" cellspacing="0" cellpadding="0")
+                    tr
+                      td(style="width: 100% !important; max-width: 100% !important; height: auto !important; font-size:0pt; line-height:0pt; text-align:left;")
+                        img(src=`${image}` width="240" height="320" mc:edit="image_3" style="max-width:240px;" border="0" alt="")
+                th(width="50" style="padding-bottom: 10px !important; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;")
+                th(style="padding-bottom: 10px !important; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;")
+                  table(width="100%" border="0" cellspacing="0" cellpadding="0")
+                    tr
+                      td(style="color:#050505; font-family:'Roboto', Arial,sans-serif; font-size:28px; line-height:34px; text-align:left; padding-bottom:20px;")
+                        div(mc:edit="text_3") #{name}
+                    tr
+                      td(style="color:#666666; font-family:'Roboto', Arial,sans-serif; font-size:16px; line-height:28px; text-align:left; padding-bottom:20px;")
+                        div(mc:edit="text_4")
+                          | Today's Price is #{price}
+                    // Button
+                    tr(mc:hideable="")
+                      td(align="left")
+                        table(border="0" cellspacing="0" cellpadding="0")
+                          tr
+                            td(style="background:#71c167; color:#ffffff; font-family:'Roboto', Arial,sans-serif; font-size:14px; line-height:18px; padding:12px 30px; text-align:center;")
+                              div(mc:edit="text_5")
+                                a.link-white(href=`${link}` target="_blank" style="color:#ffffff; text-decoration:none;")
+                                  span.link-white(style="color:#ffffff; text-decoration:none;") Buy
